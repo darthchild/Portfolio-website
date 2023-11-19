@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ekagra Nigam</title>
+    
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap">
+
+    <!-- Font Awesome Icons -->
+    <script src="https://kit.fontawesome.com/e443e33f7f.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="./assets/style.css">
+    <script defer src="./assets/app.js "></script>
+</head>
+
+<body>
+
+    <div class="sidemenu-container">
+        <div class="menu-toggle" id="menuToggle">
+            <div class="bar" id="bar1"></div>
+            <div class="bar" id="bar2"></div>
+            <div class="bar" id="bar3"></div>
+        </div>
+        <div class="sidebar" id="sidebar">
+            <nav>
+                <ul class="sidebar-items">
+
+                    <li><a class="nav-link" href="" onclick="closeSidebar()">
+                        Home <span>→</span>
+                    </a></li>
+
+                    <li><a class="nav-link" href="" onclick="closeSidebar()">
+                        Projects <span>→</span>
+                    </a></li>
+
+                    <li><a class="nav-link" href="https://flowcv.com/resume/6tnrjl3mfl" onclick="closeSidebar()" target=”_blank”>
+                        Resume <span>→</span>
+                    </a></li>
+
+                    <li><a class="nav-link" href="#section-2" onclick="closeSidebar()">
+                        Get in Touch<span>→</span>
+                    </a></li>
+
+                    <li><a class="nav-link" href="http://ekagranigam.wordpress.com/" onclick="closeSidebar()" target=”_blank”>
+                        Blog<span>→</span>
+                    </a></li>
+
+                </ul>
+
+                <div class="sidebar-footer">
+                    <p>
+                        Ordo. <span>Ab.</span> Ciao.
+                    </p>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+
+    <main class="section-1">
+        <section class="hidden">
+
+            <ul class="main-header">
+                <li>Hi,</li>
+                <li>This is</li>
+                <li>Ekagra Nigam</li>
+            </ul>
+
+            <img class="profile-photo" src="./images/me.png" alt="">
+            
+            <div class="scroll-down" id="scroll-down" onclick="scrollToSection('section-2')">
+                <img src="./images/down-arrow.svg">
+            </div>
+        </section>
+    </main>
+
+    <main class="section-2" id="section-2">
+        <section class="hidden">
+            <div class="sec-header">
+                <span>I'm a CS & Electronics  3rd year</span>
+                <span>at VIT Chennai</span>
+            </div>
+
+            <div class="contact">
+                <span class="header"> 
+                    get in touch
+                    <div class="underline"></div>
+                </span>
+
+                <div class="social-list">
+
+                    <a href="mailto:ekagranigam@gmail.com" target=”_blank”>
+                        <div class="social-link">
+                            <i class="fa-regular fa-envelope fa-xl" style="color: #ffffff;"></i>
+                            <span> / ekagranigam </span>
+                        </div>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/ekagra-nigam-86a573234/" target=”_blank”>
+                        <div class="social-link">
+                            <i class="fa-brands fa-linkedin-in fa-xl" style="color: #ffffff;"></i>
+                            <span> / Ekagra Nigam </span>
+                        </div>
+                    </a>
+
+                    <a href="https://www.instagram.com/darthchild/" target=”_blank”>
+                        <div class="social-link">
+                            <i class="fa-brands fa-instagram fa-xl" style="color: #ffffff;"></i>
+                            <span> / darthchild</span>
+                        </div>
+                    </a>
+
+                    <a href="https://github.com/darthchild" target=”_blank”>
+                        <div class="social-link">
+                            <i class="fa-brands fa-github fa-xl" style="color: #ffffff;"></i>
+                            <span> / darthchild</span>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="scroll-right" id="scroll-down" onclick="scrollToSection('section-2')">
+                    <i class="fa-solid fa-angles-right" style="color: #474747;"></i>
+                </div>
+                
+            </div>
+        </section>
+    </main>
+
+    <main class="section-3">
+        <section class="hidden">
+            <ul class="main-header">
+                <li>Hi,</li>
+                <li>This is</li>
+                <li>Ekagra Nigam</li>
+            </ul>
+
+            <div class="scroll-down" id="scroll-down" onclick="scrollToSection('section-3')">
+                <img src="./images/down-arrow.svg">
+            </div>
+        </section>
+    </main>
+
+</body>
+
+</html>
