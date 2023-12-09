@@ -42,6 +42,9 @@ document.getElementById('menuToggle').addEventListener('click', function () {
 	const bars = document.querySelectorAll('.bar');
 	bars.forEach(bar => bar.classList.toggle('open'));
 	document.getElementById('sidebar').classList.toggle('sidebar-open');
+	
+	// for burred background when sidebar opens
+	document.querySelector('.main-container').classList.toggle('blur');
 });
 
 // ************  FOR CLOSING SIDEBAR  ************
