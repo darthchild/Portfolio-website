@@ -53,3 +53,19 @@ function closeSidebar() {
 	bars.forEach(bar => bar.classList.remove('open'));
 	document.getElementById('sidebar').classList.remove('sidebar-open');
 }
+
+
+
+// <!-- Top language stats -->
+// <a href="https://github.com/darthchild/github-readme-stats">
+// 	<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=darthchild&layout=compact&theme=radical&show_icons=true" alt="Top Languages" />
+// </a>
+
+// <!-- Contributions & streak -->
+// <a align= "center" href="https://github.com/darthchild">
+// <img alt= "stats card" height="200px" width="400" src="https://github-readme-streak-stats.herokuapp.com/?user=darthchild&theme=radical">
+// <br>
+
+// <!-- overall GitHub stats -->
+// <img height="200px" width="400" src="https://github-readme-stats.vercel.app/api?username=darthchild&count_private=true&theme=radical&show_icons=true" />
+// <br>
