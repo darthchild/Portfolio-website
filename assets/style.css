@@ -14,7 +14,7 @@
 }
 
 body{
-    background-image: url(../images/back.png);
+    background-image: url(../images/cool-background.png);
     background-size: cover; /* Adjust to cover the entire section */
     background-position:top;
     margin: 0;
@@ -146,8 +146,8 @@ body{
     font-family: "Pretendard-Medium", sans-serif;
     font-style: normal;
     position: relative;
-    background-color: #ecd4b8;
-    color: black;
+    background-color: #000000;
+    color: #ecd4b8;
     height: 190vh;
     padding: 20px;
 
