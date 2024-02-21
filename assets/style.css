@@ -23,8 +23,11 @@ body{
     text-decoration: none;
    
     /* background-image: linear-gradient(to right bottom, #000000, #000000, #000000, #000000, #000000, #090204, #100309, #15050f, #1b0a1a, #1d1026, #181634, #001d43); */
+    
+    background-image: linear-gradient(to right, #000000, #000000, #000000, #000000, #000000, #010000, #020001, #030002, #040005, #040108, #03020c, #00040f);
+    
+    /* background-image: linear-gradient(to right, #000000, #000000, #000000, #000000, #000000, #030001, #060002, #090004, #0d0009, #0e0010, #0b0017, #03001c); */
 
-    background-image: linear-gradient(to right, #000000, #000000, #000000, #000000, #000000, #030001, #060002, #090004, #0d0009, #0e0010, #0b0017, #03001c);
 }
 
 .main-container{
