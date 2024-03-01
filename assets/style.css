@@ -14,7 +14,6 @@
 }
 
 body{
-    /* background-image: url(../images/cool-background.png);
     background-size: cover; /* Adjust to cover the entire section 
     background-position:top;*/
     margin: 0;
@@ -47,9 +46,6 @@ body{
 /* ----****----- SECTION -1 ----****----- */
 .section-1::before {
     content: '';
-    /* background-image: url('../images/back.png');
-    background-size: cover;
-    background-position: center; */
     position: absolute;
     top: 0;
     left: 0;
