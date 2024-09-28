@@ -1,3 +1,42 @@
+// ************  FOR PROJECTS SECTION  ************
+const projectBoxData = [
+	{
+		title: "Screenlit - Full Stack Movie Review Platform",
+		description: "Spring Boot, React JS, PostgreSQL, Docker, AWS",
+        repoUrl: "https://github.com/darthchild/Screenlit"
+	},
+	{
+		title: "Samvaad AI - Multimodal & Multilingual AI assistant",
+		description: "Flask, Bhashini Suite, Mixtral 8x7B, Python, JavaScript",
+        repoUrl: "https://github.com/darthchild/Samvaad-AI"
+	},
+	{
+		title: "Spotify Song Popularity Analysis",
+		description: "R, Linear Regression, dplyr, RStudio,",
+        repoUrl: "https://github.com/darthchild/Spotify-Song-Popularity-Analysis"
+	},
+	{
+		title: "The Inquisitor - Real-time Android Quiz App",
+		description: "Android SDK, Firebase, Android Studio, Gradle",
+        repoUrl: "https://github.com/darthchild/The-Inquisitor"
+	}
+];
+
+const projectBoxContainer = document.getElementById('project-box-container');
+
+projectBoxData.forEach(data => {
+	const box = document.createElement('a');
+	box.className = 'project-box';
+	box.href = data.repoUrl;
+	box.target = "_blank"; // Opens link in a new tab
+	box.rel = "noopener noreferrer"; // Security best practice for opening links in new tabs
+	box.innerHTML = `
+		<h2>${data.title}</h2>
+		<p>${data.description}</p>
+	`;
+	projectBoxContainer.appendChild(box);
+});
+
 // ************  FOR APPEARENCE ON SCROLL  ************
 const obsever = new IntersectionObserver((entries) => {
  
