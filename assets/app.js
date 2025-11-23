@@ -1,9 +1,14 @@
 // ************  FOR PROJECTS SECTION  ************
 const projectBoxData = [
 	{
-		title: "Screenlit - Full Stack Movie Review Platform",
+		title: "Screenlit - Full Stack Movie Discovery Platform",
 		description: "Spring Boot, React JS, PostgreSQL, Docker, AWS",
         repoUrl: "https://github.com/darthchild/Screenlit"
+	},
+	{
+		title: "Aurthor - Plug and Play JWT Security Module for Spring apps",
+		description: "Spring Boot, Spring Security 6, JJWT, Maven",
+        repoUrl: "https://github.com/darthchild/aurthor"
 	},
 	{
 		title: "Samvaad AI - Multimodal & Multilingual AI assistant",
@@ -12,14 +17,14 @@ const projectBoxData = [
 	},
 	{
 		title: "Spotify Song Popularity Analysis",
-		description: "R, Linear Regression, dplyr, RStudio,",
+		description: "R, Linear Regression, dplyr, RStudio",
         repoUrl: "https://github.com/darthchild/Spotify-Song-Popularity-Analysis"
 	},
-	{
-		title: "The Inquisitor - Real-time Android Quiz App",
-		description: "Android SDK, Firebase, Android Studio, Gradle",
-        repoUrl: "https://github.com/darthchild/The-Inquisitor"
-	}
+	// {
+	// 	title: "The Inquisitor - Real-time Android Quiz App",
+	// 	description: "Android SDK, Firebase, Android Studio, Gradle",
+    //     repoUrl: "https://github.com/darthchild/The-Inquisitor"
+	// }
 ];
 
 const projectBoxContainer = document.getElementById('project-box-container');

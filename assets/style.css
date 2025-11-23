@@ -196,7 +196,7 @@ body{
 .resume{
     display: flex;
     justify-content: center;
-    margin-top: 40px;
+    margin-top: 50px;
 }
 
 .resume-link{
@@ -462,7 +462,6 @@ body{
 
 
 .section-4 {
-    background-color: #060606;
     color: #dcdcdc;
     height: 55vh;
     padding: 20px;
@@ -542,7 +541,7 @@ body{
 }
 
 .copyright{
-    font-size: 0.5rem;
+    font-size: 10px;
 }
 
 /* -------- SIDEMENU --------- */
